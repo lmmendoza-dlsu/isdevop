@@ -1,0 +1,43 @@
+**********************************************************************
+*
+*     ISDEVOP
+*     ISDEVOP Git Checkpoint 1
+*     Objective: Branches and Folders
+*     
+*     Author: Lourdes Mendoza
+*     Date: February 12, 2024
+*     
+**********************************************************************
+
+PREREQUISITE:
+1. Before you proceed to the next activities, make sure you have cloned this new repo.
+
+INSTRUCTIONS:
+
+For today, your task will be to do the following:
+1. Create a new topic branch based from the master following the prescribed convention: 	<s16/s17>/<yourSurname>-checkpointOne
+2. On that new branch, kindly create a new folder named checkpoints
+3. Create a README markdown file with that states the purpose of this folder. Name the file as checkpoint_one_yourSurname
+4. Add, Commit, and Push your new folder and file to the origin
+	git add <filename>
+	git commit -m "meaningful" message
+	git push origin
+
+
+*** SAMPLE OUTPUT ***
+
+README.md
+**********************************************************************
+*
+*     ISDEVOP
+*     ISDEVOP Git Checkpoint 1
+*     Objective: Branches and Folders
+*     
+*     Author: Lourdes Mendoza
+*     Date: February 12, 2024
+*     
+**********************************************************************
+
+# Checkpoint 01: Branches and Folder
+## Purpose:
+The purpose of this folder is to keep all checkpoint activities in one place. <Insert your own message>

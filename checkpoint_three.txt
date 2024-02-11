@@ -1,0 +1,85 @@
+**********************************************************************
+*
+*     ISDEVOP
+*     ISDEVOP Checkpoint 3
+*     Objective: Group Performance Task
+*     
+*     Author: Lourdes Mendoza
+*     Date: February 25, 2024
+*     
+**********************************************************************
+
+======================================================================
+PREREQUISITE:
+After the leader has created the checkpoint_three_yourGroupname branch, refer to the following instructions:
+======================================================================
+
+======================================================================
+APPLICATION 1: ENROLLMENT SYSTEM
+- Group 2
+- Group 4
+- Group 5
+- Group 8
+- Group 10
+- Group 12
+- Group 14
+
+APPLICATION 2: INVENTORY SYSTEM
+- Group 3
+- Group 6
+- Group 7
+- Group 9
+- Group 11
+- Group 13
+- Group 15
+======================================================================
+NOTE:
+There are no required minimum or maximum number of test cases, the leader just need to make sure that all members have their assigned task. For example: A group with 4 members (including the leader) is assigned to test an Enrollment System.
+- Student 1 will write a pseudo test code for Registration, Login, and Logout Features
+- Student 2 will write a pseudo test code for Adding the Subject, the Room, and the Schedule and assigning these items together (ISDEVOPS - G306A - 1240H to 1415H)
+- Student 3 will write a pseudo test code for Function x
+- Student 4 will write a pseudo test code for Function y
+======================================================================
+
+======================================================================
+INSTRUCTIONS:
+1. For this activity, kindly wear the hat of a Quality Assurance Analyst, and write a pseudo test script for the assigned application to your group.
+
+2. In the new working branch (checkpoint_three_yourGroupname), create a folder named checkpoint_three_yourGroupname_folder.
+
+3. After this folder has been created, kindly add, commit, then push this back to origin. This is important. If you skip this, your members will not be able to see your new branch.
+
+4. Your members should now see your newly created folder and branch.
+
+5. Discuss which part of the assigned app each member will be doing. Once this has been decided, all of the members can now create the topic branch based off on your dev (group) branch: checkpoint_three_yourGroupname. Kindly follow this convention: checkpoint_three_yourSurname; to do this:
+git checkout -b checkpoint_three_yourSurname checkpoint_three_yourGroupName
+======================================================================
+
+======================================================================
+INDIVIDUAL TASK:
+1. After you have created your new branch (checkpoint_three_yourSurname), you may now start writing your pseudo-code. BUT, make sure that you are on the right folder (checkpoint_three_yourGroupname_folder)
+
+2. After writing your pseudo-code, please add, commit, then push your work back to the origin. Use the following commands as your guide:
+git add <fileName>
+git commit -m "description of the commit"
+git push origin (if this suggests setting an upstream branch, just follow it), sample:
+	git push --set-upstream origin checkpoint_three_mendozaAnswer
+
+//AT THIS POINT, THE LEADER SHOULD SEE THAT THERE ARE NO FILES ON THE checkpoint_three_yourGroupName BRANCH yet.
+
+3. After pushing your work back to the origin, it's now time to merge it back to the dev branch. To do this:
+//Go back to the branch that your leader created
+- git checkout checkpoint_three_yourGroupName
+
+//Update the dev branch on your local branch
+- git pull origin checkpoint_three_yourGroupName
+
+// Now, merge your individual task and your topic branch to the dev branch
+- git merge checkpoint_three_yourSurname
+- git push origin checkpoint_three_yourGroupName
+
+//AT THIS POINT, ALL MEMBERS SHOULD NOW SEE EACH OTHERS' WORK :)
+======================================================================
+
+Once you're all done, the leader should now comment DONE on the Assignment Item on AnimoSpace.
+Finally, kindly download GitKraken which we will use on the next meeting.
