@@ -11,4 +11,4 @@
 
 # Checkpoint 01: Branches and Folder
 ## Purpose:
-The purpose of this folder is to keep all checkpoint activities in one place. This setup aims to improves access, streamlines reviews, and tracks progress efficiently for ISDEVOP checkpoint activities.
+The purpose of this folder is to keep all checkpoint activities in one place. This configuration is designed to enhance accessibility, streamline the review process, and efficiently monitor progress for ISDEVOP checkpoint activities. It is structured to facilitate easy access, simplify the review workflow, and provide effective progress tracking throughout the checkpoint tasks.
