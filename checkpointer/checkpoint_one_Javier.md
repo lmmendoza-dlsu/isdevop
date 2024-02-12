@@ -11,7 +11,8 @@
 
 # Checkpoint 01: Branches and Folder
 ## Purpose:
-The purpose of this folder is to keep all checkpoint activities in one place. Hello world
+The purpose of this folder is to keep all checkpoint activities in one place. Hello world! ISDEVOPS is beneficial to the 
+development and operational process!
 	git add <filename>
 	git commit -m "meaningful" message
 	git push origin
