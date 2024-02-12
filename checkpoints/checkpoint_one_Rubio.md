@@ -12,4 +12,4 @@ README.md
 
 # Checkpoint 01: Branches and Folder
 ## Purpose:
-The purpose of this folder is to keep all checkpoint activities in one place. Sukuna
+The purpose of this folder is to keep all checkpoint activities in one place. Sukuna vs Kenjaku
