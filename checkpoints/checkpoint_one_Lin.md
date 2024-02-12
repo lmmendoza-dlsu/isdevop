@@ -5,7 +5,7 @@ README.md
 *     ISDEVOP Git Checkpoint 1
 *     Objective: Branches and Folders
 *     
-*     Author: Lourdes Mendoza
+*     Author: Jonathan Lin
 *     Date: February 12, 2024
 *     
 **********************************************************************
