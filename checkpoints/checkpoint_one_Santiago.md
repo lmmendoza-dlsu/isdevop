@@ -4,7 +4,7 @@
 *     ISDEVOP Git Checkpoint 1
 *     Objective: Branches and Folders
 *     
-*     Author: Charisse Valdez
+*     Author: Claudio Santiago
 *     Date: February 12, 2024
 *     
 **********************************************************************
