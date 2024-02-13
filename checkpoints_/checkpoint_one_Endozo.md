@@ -4,8 +4,8 @@
 *     ISDEVOP Git Checkpoint 1
 *     Objective: Branches and Folders
 *     
-*     Author: Lourdes Mendoza
-*     Date: February 12, 2024
+*     Author: John Derick M. Endozo
+*     Date: February 13, 2024
 *     
 **********************************************************************
 
