@@ -1,0 +1,32 @@
+---
+-
+- ISDEVOP S17
+- ISDEVOP Checkpoint 2 -- Git Commands Reinforcement
+- Objective: GitKraken and Branching
+-
+- Author: Elliamae Ang
+- Date: February 16, 2024
+-
+---
+
+## 1. In your own words, do you think, we really need DevOps?
+
+Yes, I believe that DevOps is truly important for application development, especially after knowing the benefits that it provides. It plays a large role in helping to speed up the cycle and process of development, delivery, and deployment. Eliminating the silos that different departments or roles—such as developer, quality assurance tester, and operations—have allows for applications to be delivered much faster. Furthermore, DevOps also allows for effective collaboration through version control, secure code sharing through backups, automation of workflows, and seamless integration.
+
+## 2. Kindly differentiate the three components of DevOps: CI, CD, and CD.
+
+The three components of DevOps are continuous integration, continuous delivery, and continuous development.
+
+- Continuous integration
+  - Continuous integration refers to the principle of ensuring that integration is done as frequently as possible, as implied by its name. This means that developers should make it a habit to push any changes they have made to the code to the shared repository as often as possible.
+  - This is important as it helps the whole team track progress with the development, as well as handle any conflicts that arise as early as possible, through automations for the process of building, testing, and verifying the changes made to the code.
+- Continuous delivery
+  - Continuous delivery refers to the principle that the code must be ready for deployment or release to the stage and/or production environment at any given time. In other words, it ensures that the code is always in a deployable state.
+  - This is important as it helps speed up the development process further through mechanisms that automate delivery.
+- Continuous development
+  - Continuous development refers to the principle that the code will always be deployed or released to the production environment automatically after changes are made. In simpler terms, any updates made to the software will be made accessible to the users instantaneously.
+  - This is important as it takes continuous delivery one step further, reducing the time it takes for software to reach its intended users. Similar to the previous two, this is made possible through automations in place.
+
+## 3. In your own opinion, and based on your experience so far, what could be the most challenging part of observing the DevOps framework?
+
+Personally, the most challenging part of observing the DevOps framework is having to adapt to the changes it introduces. In order to facilitate DevOps, one must employ different new tools, practices, and attitudes. Adjusting to these changes can prove difficult, especially when you're used to a certain way of working. If you've formed some habits in the past that do not align with the CI/CD workflow, it may be challenging to unlearn them to make room for better practices. When it comes to new tools specifically, it can also be tedious trying to learn how to use them when you're accustomed to existing tools you use. Overall, resistance to change is a hurdle hard to overcome, but it is necessary for adapting and advancing.
