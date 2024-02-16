@@ -1,0 +1,11 @@
+1. In your own words, do you think, we really need DevOps?
+
+    I truly believe that DevOps can be considered as a necessity when it comes to contemporary software development. DevOps definitely fills in the role of applying a transformative approach which is able to unify development and operations, promote effective collaboration, all while keeping everything efficiently done. DevOps is able to offer solutions to the problems brought forth by the challenge of rapidly evolving business requirements.
+
+2. Kindly differentiate the three components of DevOps: CI, CD, and CD.
+
+    CI or Continuous Integration focuses on code integration and collaboration. This includes merging changes in code through a shared repository. CD or Continuous Delivery ensures that the release process is automated, making the deployment of codes be efficient and smooth. The 2nd CD, which is Continuous Deployment, automates the direct releasing process to the production environment of code changes.
+
+3. In your own opinion, and based on your experience so far, what could be the most challenging part of observing the DevOps framework?
+
+    Incorporating the DevOps framework usually involves a huge cultural shift as traditional processes, emphasizing collaboration, and thus a mutual mindset can prove to be challenging. It really brings out how a perfecting balancing of efficiency with quality must be found in order to deem the implementation of DevOps as successful.
