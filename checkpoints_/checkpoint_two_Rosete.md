@@ -29,4 +29,4 @@
 
 	3. In your own opinion, and based on your experience so far, what could be the most challenging part of observing the DevOps framework?
 
-		In my opinion, the most challenging aspect of observing the DevOps framework is initiating a cultural shift. Overcoming resistance to change and ensuring collaboration between traditionally siloed teams can be demanding but is crucial for successful DevOps implementation.
+		In my experience, the most challenging part of familiarizing myself with the DevOps framework has been navigating the tooling landscape and practices. As someone who is more accustomed to traditional development or operations practices, adapting to different tools and their integration within DevOps can be a bit overwhelming.
