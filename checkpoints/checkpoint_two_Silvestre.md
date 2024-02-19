@@ -1,12 +1,14 @@
 ---
+
 -
-- ISDEVOP S12
-- ISDEVOP Checkpoint 2 -- Git Commands Reinforcement
-- Objective: GitKraken and Branching
+-     ISDEVOP S12
+-     ISDEVOP Checkpoint 2 -- Git Commands Reinforcement
+-     Objective: GitKraken and Branching
 -
-- Author: Franczeska Silvestre
-- Date: February 19, 2024
+-     Author: Franczeska Silvestre
+-     Date: February 19, 2024
 -
+
 ---
 
 1. In your own words, do you think, we really need DevOps?
