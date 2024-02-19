@@ -21,12 +21,12 @@ DevOps in my perspective is important to take into account as each stage and pro
 
 /*
 Continuous Integration (CI):
-CI focuses on the frequent integration of code changes into a shared repository.
-The main goal is to identify and address integration issues early in the development process.
+- CI focuses on the frequent integration of code changes into a shared repository.
+- The main goal is to identify and address integration issues early in the development process.
 
 Continuous Delivery (CD):
-CD extends CI by automating the entire software release process.
-Although the software is ready for release, the actual deployment to production is a manual process in CD.
+- CD extends CI by automating the entire software release process.
+- Although the software is ready for release, the actual deployment to production is a manual process in CD.
 
 Continuous Deployment (CD):
 - CD goes a step further by automating the deployment of the software to production environments.
