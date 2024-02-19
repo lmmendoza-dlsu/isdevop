@@ -5,7 +5,7 @@
 *     Objective: GitKraken and Branching
 *     
 *     Author: Matthew S. Wassmer
-*     Date: February 19, 2024
+*     Date: February 19, 2024 
 *     
 **********************************************************************
 
