@@ -1,11 +1,11 @@
 **********************************************************************
 *
-*     ISDEVOP S12
+*     ISDEVOP S16
 *     ISDEVOP Checkpoint 2 -- Git Commands Reinforcement
 *     Objective: GitKraken and Branching
 *     
 *     Author: Patricia Arao
-*     Date: February 25, 2024
+*     Date: February 19, 2024
 *     
 **********************************************************************
 
