@@ -1,0 +1,19 @@
+**********************************************************************
+*
+*     ISDEVOP S12
+*     ISDEVOP Checkpoint 2 -- Git Commands Reinforcement
+*     Objective: GitKraken and Branching
+*     
+*     Author: Jonathan Angelo C. Bueno
+*     Date: February 19, 2024
+*     
+**********************************************************************
+
+1. In your own words, do you think, we really need DevOps?
+    - Yes, because it allows for the cooperation of developers, QA, and operations such that they won't work in silos promoting a better working environment, change visibility, and flexibility. Additionally, since DevOps is complementary to Agile, it takes into account the deployment and delivery of a product. This means that after development, the product is continually tested and monitored before and after it is released into production.
+2. Kindly differentiate the three components of DevOps: CI, CD, and CD.
+    - Continuous Integration is a practice where developers commit changes to the source code to a remote repository automatically building, testing, and verifying the changes for fast software defects fixes. Additionally, it also helps track changes within the source code.
+    - Continous Delivery is an extention of CI wherein after changes have been made, it automatically checks if it is ready to be released to production. The release process is manually done by the developer.
+    - Continuous Deployment is the automated deployment to production. After changes have been made and tested, it is automatically released usually multiple times per day.
+3. In your own opinion, and based on your experience so far, what could be the most challenging part of observing the DevOps framework?
+    - I was told that we were going to write automated scripts in DevOps. Having insignificant experience in that field, I think that would be my most challenging aspect of the course.
