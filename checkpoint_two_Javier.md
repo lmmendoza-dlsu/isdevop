@@ -38,6 +38,7 @@ Continuous Deployment (CD):
 /*
 The most challenging part of observing the DevOps framework is often the cultural shift within an organization. Adopting DevOps requires breaking down silos between development and operations teams, fostering collaboration, and embracing a mindset of continuous improvement. Resistance to cesses can hinder the successful implementation of DevOps practices.
 */
+
 2. Once you're done -- Add, Commit, and Push your work to the origin
 	git add <filename>
 	git commit -m "meaningful" message
