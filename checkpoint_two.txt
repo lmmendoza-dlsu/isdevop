@@ -19,7 +19,8 @@
 	// Continuous deployment is the process that also streamlines the process of deployment after various testing. 
 	
 	3. In your own opinion, and based on your experience so far, what could be the most challenging part of observing the DevOps framework?
-	// The most challenging part of DevOps would 
+	// The most challenging part of DevOps would be adjusting to the different tools introduced to manage automation and collaboration. Since the concept of DevOps as well as using 
+	the different tools are very much new to me, it has indeed been quite a challenge to adjust. With that being said, proper tool selection, integration have been quite complex to learn and would need a more hands-on guidance.
 
 2. Once you're done -- Add, Commit, and Push your work to the origin
 	git add <filename>
