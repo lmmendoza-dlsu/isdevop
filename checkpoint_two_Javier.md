@@ -10,6 +10,7 @@
 **********************************************************************
 
 1. On the same folder and branch where you put your checkpoint_one, create a new file named checkpoint_two_<yourSurName> then answer the following questions:
+
 // Question 1: In your own words, do you think, we really need DevOps?
 
 /*
