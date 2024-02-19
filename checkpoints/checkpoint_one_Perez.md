@@ -11,6 +11,4 @@
 
 # Checkpoint 01: Branches and Folder
 ## Purpose:
-The purpose of this folder is to keep all checkpoint activities in one place. 
-
-Thanks for coming.
+This folder is designated as a practice space for the ISDEVOP Git Checkpoint activities. Its primary goal is to provide a centralized location for organizing, tracking, and managing all tasks related to branching and folder management. By consolidating these activities in one place, this folder aims to enhance learning and understanding of Git concepts and best practices.
