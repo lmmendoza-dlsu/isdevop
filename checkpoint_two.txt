@@ -4,7 +4,7 @@
 *     ISDEVOP Checkpoint 2 -- Git Commands Reinforcement
 *     Objective: GitKraken and Branching
 *     
-*     Author: Lourdes Mendoza
+*     Author: Maria Alessnadra Abalos
 *     Date: February 25, 2024
 *     
 **********************************************************************
