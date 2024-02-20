@@ -1,0 +1,21 @@
+**********************************************************************
+*
+*     ISDEVOP S17
+*     ISDEVOP Checkpoint 2 -- Git Commands Reinforcement
+*     Objective: GitKraken and Branching
+*     
+*     Author: Cymbeline Anne B. Lignes
+*     Date: February 20, 2024
+*     
+**********************************************************************
+
+	1. In your own words, do you think, we really need DevOps?
+        Yes, DevOps is the foundation for optimizing workflows, breaking down organizational silos, and reducing manual interventions. By automating activities like testing, continuous integration, and delivery, DevOps facilitates a smooth transition from code creation to deployment. This improves code release speed and develops a sense of quality, dependability, and satisfaction for users by allowing quicker feedback loops.
+
+	2. Kindly differentiate the three components of DevOps: CI, CD, and CD.
+        Continuous Integration (CI) serves as a diligent librarian in the software world, continuously combining code updates from several developers into a shared branch. Its value rests in detecting flaws early on and ensuring code reliability through frequent integration.
+        Continuous Delivery (CD), similar to an efficient conveyor belt, broadens the CI process by effortlessly sending code changes to diverse environments such as testing and staging. However, it falls short of automating production deployment, allowing people to make final version decisions.
+        Continuous Deployment (CD) accelerates the conveyor belt, automating the deployment of code updates directly into the production environment. This strategy ensures faster and safer deployments, resulting in happier users and better business outcomes.
+
+	3. In your own opinion, and based on your experience so far, what could be the most challenging part of observing the DevOps framework?
+        As a student, getting into DevOps seems like stepping into a maze; it's complicated and challenging. I've faced challenges such as inconsistent settings across multiple environments, making standardization and continuous delivery critical to success. To go further, I've discovered that adopting DevOps and SDLC principles is critical, requiring flexibility and effort. Dealing with tooling restrictions involves carefully evaluating options and remaining current on evolving technologies. Breaking them down necessitates collaboration, trust-building, and acknowledging minor accomplishments. In short, understanding DevOps as a student entails optimizing operations, remaining innovative, and emphasizing collaboration.
