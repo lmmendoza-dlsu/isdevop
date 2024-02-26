@@ -3,6 +3,8 @@ version: '3'
 services:
   mySql_1:
     image: mysql:8.0
+    ports:
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: database_1
@@ -11,6 +13,8 @@ services:
 
   mySql_2:
     image: mysql:8.0
+    ports:
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: database_2
@@ -19,6 +23,8 @@ services:
 
   mySql_3:
     image: mysql:8.0
+    ports:
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: database_3
@@ -27,12 +33,16 @@ services:
 
   mySql_4:
     image: mysql:8.0
+    ports:
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: database_4
 
   mySql_5:
     image: mysql:8.0
+    ports:
+      - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: database_5
