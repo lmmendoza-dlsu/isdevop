@@ -1,0 +1,52 @@
+version: "3"
+services:
+  mysql1:
+    image: "mysql:8.0"
+    container_name: "mysql1"
+    ports:
+      - "6201:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "mysql1venz"
+      MYSQL_DATABASE: "mydb1"
+      MYSQL_USER: "roque1"
+      MYSQL_PASSWORD: "venzpogi!@#123"
+
+  mysql2:
+    image: "mysql:8.0"
+    container_name: "mysql2"
+    ports:
+      - "6202:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "mysql2venz"
+      MYSQL_DATABASE: "mydb2"
+      MYSQL_USER: "roque2"
+      MYSQL_PASSWORD: "venzpogi!@#123"
+
+  mysql3:
+    image: "mysql:8.0"
+    container_name: "mysql3"
+    ports:
+      - "6203:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "mysql3venz"
+      MYSQL_DATABASE: "mydb3"
+      MYSQL_USER: "roque3"
+      MYSQL_PASSWORD: "venzpogi!@#123"
+
+  mysql4:
+    image: "mysql:8.0"
+    container_name: "mysql4"
+    ports:
+      - "6204:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "mysql4venz"
+      MYSQL_DATABASE: "mydb4"
+
+  mysql5:
+    image: "mysql:8.0"
+    container_name: "mysql5"
+    ports:
+      - "6205:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "mysql5venz"
+      MYSQL_DATABASE: "mydb5"
