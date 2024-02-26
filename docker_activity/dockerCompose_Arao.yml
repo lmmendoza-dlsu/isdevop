@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  mysql_instance1:
+    image: mysql_activity
+    container_name: mysql_instance1
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: password1
+      MYSQL_DATABASE: db1
+    restart: always
+
+  mysql_instance2:
+    image: mysql_activity
+    container_name: mysql_instance2
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_USER: user2
+      MYSQL_PASSWORD: password2
+      MYSQL_DATABASE: db2
+    restart: always
+
+  mysql_instance3:
+    image: mysql_activity
+    container_name: mysql_instance3
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_USER: user3
+      MYSQL_PASSWORD: password3
+      MYSQL_DATABASE: db3
+    restart: always
+
+  mysql_instance4:
+    image: mysql_activity
+    container_name: mysql_instance4
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+    restart: always
+
+  mysql_instance5:
+    image: mysql_activity
+    container_name: mysql_instance5
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+    restart: always
+
