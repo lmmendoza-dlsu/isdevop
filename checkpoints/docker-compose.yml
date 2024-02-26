@@ -44,8 +44,6 @@ services:
 
                 MYSQL_ROOT_PASSWORD: mysql1234
                 MYSQL_DATABASE: mydb4
-                MYSQL_USER: user4
-                MYSQL_PASSWORD: pass4
 
 
         mysql5: "mysql:8.0"
@@ -56,5 +54,3 @@ services:
 
                 MYSQL_ROOT_PASSWORD: mysql1234
                 MYSQL_DATABASE: mydb5
-                MYSQL_USER: user5
-                MYSQL_PASSWORD: pass5
