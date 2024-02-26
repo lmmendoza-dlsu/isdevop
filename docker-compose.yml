@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  mySql_1:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: database_1
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: DLSU1!
+
+  mySql_2:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: database_2
+      MYSQL_USER: user2
+      MYSQL_PASSWORD: DLSU2!
+
+  mySql_3:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: database_3
+      MYSQL_USER: user3
+      MYSQL_PASSWORD: DLSU3!
+
+  mySql_4:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: database_4
+
+  mySql_5:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: database_5
