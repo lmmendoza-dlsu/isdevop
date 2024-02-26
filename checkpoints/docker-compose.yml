@@ -15,7 +15,7 @@ services:
     image: "mysql:8.0"
     container_name: "mysql2"
     ports:
-      - "6201:3306"
+      - "6202:3306"
     environment:
       MYSQL_ROOT_PASSWORD: "mysql1234"
       MYSQL_DATABASE: "mydb2"
@@ -26,7 +26,7 @@ services:
     image: "mysql:8.0"
     container_name: "mysql3"
     ports:
-      - "6201:3306"
+      - "6203:3306"
     environment:
       MYSQL_ROOT_PASSWORD: "mysql1234"
       MYSQL_DATABASE: "mydb3"
@@ -37,7 +37,7 @@ services:
     image: "mysql:8.0"
     container_name: "mysql4"
     ports:
-      - "6201:3306"
+      - "6204:3306"
     environment:
       MYSQL_ROOT_PASSWORD: "mysql1234"
       MYSQL_DATABASE: "mydb4"
@@ -46,7 +46,7 @@ services:
     image: "mysql:8.0"
     container_name: "mysql5"
     ports:
-      - "6201:3306"
+      - "6205:3306"
     environment:
       MYSQL_ROOT_PASSWORD: "mysql1234"
       MYSQL_DATABASE: "mydb5"
