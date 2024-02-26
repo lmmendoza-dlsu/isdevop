@@ -1,0 +1,8 @@
+1. In your own words, do you think, we really need DevOps?
+    Even if DevOps wasn't as effective, I still believe that we need DevOps by virtue of it being a change from then usual Agile method, and we need to encourage more changes in the industry in order for the industry to improve. Fortunately, it is effective, so on top of pushing the industry forward to better improve the Agile method and DevOps, it is an effective means to bridge the gap between the development teams and the operations teams, in contrast to the two teams operating independently from each other.
+2. Kindly differentiate the three components of DevOps: CI, CD, and CD.
+    CI, or Continuous Integration, is a practice in which changes to the source code can be integrated into the main branch as soon as possible.
+    CD, or Continuous Delivery, is an extension of the CI practice, from which the project is ready to be released at any time even as changes are being introduced, but it doesn't necesarilly mean that it should be released.
+    CD, or Continuous Deployment, further extends CI and CD to it's limits, by stright up releasing the software everytime changes are made to the project.
+3. In your own opinion, and based on your experience so far, what could be the most challenging part of observing the DevOps framework?
+    In my opinion, as a student the current challenge is simply keeping track of all the changes made to the code. Being students who just discovered DevOps like cavemen discovering fire, communication is still efficient, so everytime I want to add to the code, I have to pull from the code and take into account everything that has been changed. While annoying and challenging, it can be made easier by simple exposure to it, and I'll simply get used to it.
