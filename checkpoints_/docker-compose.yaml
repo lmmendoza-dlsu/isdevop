@@ -1,0 +1,53 @@
+version: "3"
+
+services:
+  mysql-1:
+    image: "mysql:8.0"
+    container_name: "mysql-1"
+    ports:
+      - "6201:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass123
+      MYSQL_DATABASE: mysqldb-1
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: userpass1
+
+  mysql-2:
+    image: "mysql:8.0"
+    container_name: "mysql-2"
+    ports:
+      - "6202:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass123
+      MYSQL_DATABASE: mysqldb-2
+      MYSQL_USER: user2
+      MYSQL_PASSWORD: userpass2
+
+  mysql-3:
+    image: "mysql:8.0"
+    container_name: "mysql-3"
+    ports:
+      - "6203:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass123
+      MYSQL_DATABASE: mysqldb-3
+      MYSQL_USER: user3
+      MYSQL_PASSWORD: userpass3
+
+  mysql-4:
+    image: "mysql:8.0"
+    container_name: "mysql-4"
+    ports:
+      - "6204:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass123
+      MYSQL_DATABASE: mysqldb-4
+
+  mysql-5:
+    image: "mysql:8.0"
+    container_name: "mysql-5"
+    ports:
+      - "6205:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass123
+      MYSQL_DATABASE: mysqldb-5
