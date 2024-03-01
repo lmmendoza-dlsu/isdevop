@@ -4,7 +4,7 @@ Advantages of Docker
 
 2. Isolation - Docker provides containerization, isolating applications from the underlying system and other containers. This isolation ensures that changes in one part of the application do not affect other components, leading to greater stability.
 
-3. Resource Efficiency - Docker shares the host system's kernel, which makes containers lightweight and requires less overhead compared to traditional virtual machines. This results in faster startup times, efficient resource utilization, and the ability to run more containers on the same hardware.
+3. Resource Efficiency - The Docker shares the host system's kernel, which makes containers lightweight and requires less overhead compared to traditional virtual machines. This results in faster startup times, efficient resource utilization, and the ability to run more containers on the same hardware.
 
 Benefits of DevOps
 

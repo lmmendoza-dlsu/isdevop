@@ -1,4 +1,4 @@
-    # Use the official CentOS 7 image from Docker Hub
+# Use the official CentOS 7 image from Docker Hub
 FROM centos:7
 
 # Install MySQL Server
