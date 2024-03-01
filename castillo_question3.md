@@ -2,9 +2,7 @@
   **Docker**
     - Docker conatainers encapsualte the application and all its dependencies into a single unit, making it easy to deploy consistently across differennt environment, such as development,testing, and production
     - Docker containers provide a level of isolation for applications, ensuring that they run independently of the underlying infrastructure. This isolation helps prevent conflicts between applications and ensures that each application operates reliably.
-    -  Docker containers are lightweight and efficient, as they share the host system's kernel and only include the necessary libraries and dependencies for the application. This leads to faster startup times and better resource utilization compared to traditional virtual machines.
-
-
+    -  Docker containers offer efficiency and lightweight characteristics by sharing the kernel of the host system and containing only essential libraries and dependencies for the application. This results in quicker startup times and optimized resource consumption when compared to conventional virtual machines.
 
 2. 
   **DevOps**

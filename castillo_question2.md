@@ -1,4 +1,3 @@
-
 # Use the official CentOS 7 as base image
 FROM centos:7
 
