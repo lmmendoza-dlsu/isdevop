@@ -1,5 +1,4 @@
 1. 
- 
   **Docker**
     - Docker conatainers encapsualte the application and all its dependencies into a single unit, making it easy to deploy consistently across differennt environment, such as development,testing, and production
     - Docker containers provide a level of isolation for applications, ensuring that they run independently of the underlying infrastructure. This isolation helps prevent conflicts between applications and ensures that each application operates reliably.
@@ -7,7 +6,6 @@
 
 
 2. 
-
   **DevOps**
     - Faster Delivery would be first as DevOps practices automate and streamline the software delivery pipeline, enabling teams to deliver new features, updates, and fixes to production faster and more frequently.
     - Improved Collaboration as DevOps encourages this and communication between development, operations, and other stakeholders, leading to better alignment of goals and faster problem resolution.
