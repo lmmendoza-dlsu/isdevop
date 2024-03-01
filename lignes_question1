@@ -1,0 +1,33 @@
+Question 1:
+
+In your own words, kindly illustrate an effective DevOps workflow and toolchain. You may add images in your markdown file. To do that, the syntax is ![image name](/path/to/image/image.png)
+
+
+![DevOps Workflow & Toolchain](C:/Users/Cymbeline Anne/Documents/Subjects/ISDEVOP/isdevop-1/q1.png)
+
+** If the link doesn't work, here's the content of the image. **
+
+DevOps Workflow and Toolchain
+
+1. Version Control (Git)
+Developers commit code changes to a shared repository using Git.
+Tools: Git, GitHub, GitLab, Bitbucket.
+
+2. Continuous Integration (CI)
+Automatically build, test, and validate code changes.
+Detect issues early in the development process.
+Tools: Jenkins, GitLab CI/CD, Travis CI, CircleCI.
+
+3. Continuous Deployment (CD)
+Deploy code to various environments (dev, staging, production).
+Automate deployment pipelines.
+Tools: Kubernetes, Docker, Terraform, Ansible.
+
+4. Security and Compliance
+Integrate security checks into the pipeline.
+Scan for vulnerabilities.
+Tools: SonarQube, OWASP ZAP, Twistlock.
+
+5. Collaboration and Communication
+Foster communication between teams.
+Tools: Slack, Microsoft Teams, Jira, Confluence.
