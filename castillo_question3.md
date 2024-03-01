@@ -5,6 +5,7 @@
     -  Docker containers are lightweight and efficient, as they share the host system's kernel and only include the necessary libraries and dependencies for the application. This leads to faster startup times and better resource utilization compared to traditional virtual machines.
 
 
+
 2. 
   **DevOps**
     - Faster Delivery would be first as DevOps practices automate and streamline the software delivery pipeline, enabling teams to deliver new features, updates, and fixes to production faster and more frequently.
