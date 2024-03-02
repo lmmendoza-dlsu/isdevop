@@ -1,7 +1,3 @@
-# List 3 advantages of using Docker. 
-List 3 benefits of DevOps framework.
-
-
 ##  Advantages of using Docker:
 1.  Easy to use control - Docker Compose will allow you to define and manage multi-container applications into a single YAML file. This simplifies the intricacies of orchestrating and coordinating various services, making it easier to manage and replicate your application environment.
 
