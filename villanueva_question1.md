@@ -1,6 +1,6 @@
 <!-- In your own words, kindly illustrate an effective DevOps workflow and toolchain. You may add images in your markdown file. To do that, the syntax is ![image name](/path/to/image/image.png) -->
 
-![ISDEVOP Question 1 Illustration](/isdevop/DevOps Framework.jpg)
+![DevOps_Framework](/DevOps_Framework.jpg)
 
 An effective DevOps workflow together with the tools used in the particular step contains the following:
 
