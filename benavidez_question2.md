@@ -14,9 +14,15 @@ RUN mkdir -p /var/lib/mysql \
     && chmod 755 /var/lib/mysql \
     && mysqld --initialize-insecure --user=mysql --datadir=/var/lib/mysql
 
-# start mysql and set a root password
+# start mysql, set a root password and give permission for connection
 # password is mysqlrootpass
-CMD ["bash", "-c", "mysqld --user=root --datadir=/var/lib/mysql --daemonize && sleep 5 && mysqladmin -u root password 'mysqlrootpass' && tail -f /dev/null"]
+CMD ["bash", "-c", "\
+    mysqld --user=root --datadir=/var/lib/mysql --daemonize \
+    && sleep 5 \
+    && mysql -u root -e \"CREATE USER 'root'@'gateway' IDENTIFIED BY 'mysqlrootpass';\" \
+    && mysql -u root -e \"GRANT ALL PRIVILEGES ON *.* TO 'root'@'gateway';\" \
+    && mysql -u root -e \"ALTER USER 'root'@'gateway' IDENTIFIED BY 'mysqlrootpass';\" \
+    && tail -f /dev/null \
+"]
 
 EXPOSE 3306
-
