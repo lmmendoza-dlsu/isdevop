@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  mysql1:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: database1
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: DLSU_ACC
+
+  mysql2:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: database2
+      MYSQL_USER: user2
+      MYSQL_PASSWORD: CSB_ACC
+
+  mysql3:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: database3
+      MYSQL_USER: user3
+      MYSQL_PASSWORD: DLGH_ACC
+
+  mysql4:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+
+  mysql5:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
