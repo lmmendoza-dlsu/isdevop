@@ -1,8 +1,6 @@
-# In your own words, kindly illustrate an effective DevOps workflow and toolchain. You may add images in your markdown file. To do that, the syntax is ![image name](/path/to/image/image.png)
+## Describing an effective DevOps workflow and toolchain, I have listed the following ideal flow:
 
 ![Alt Text](https://www.devopsschool.com/blog/wp-content/uploads/2023/08/image-443-1024x524.png)
-
-## Describing an effective DevOps workflow and toolchain, I have listed the following ideal flow:
 
 ## 1. Planning
 - This is part of the workdlow wherein one needs to define project goals, tasks and requirements need first, 
