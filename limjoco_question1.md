@@ -1,6 +1,6 @@
 In your own words, kindly illustrate an effective DevOps workflow and toolchain. You may add images in your markdown file. To do that, the syntax is ![image name](/path/to/image/image.png)
 
-![DevOps_Diagram_Thing](/DevOps_Diagram_Thing.png)
+![DevOps_Diagram_Things](/DevOps_Diagram_Things.png)
 
 An effective DevOps workflow would follow the infinity model of continuous integration and feedback. The workflow, or at least the simplest variation of the workflow, is:
  1. Plan - The planning phase is where important parts of the project are defined, such as objectives and scope, while also hashing out details for things such as the platform the project will be on, the tools needed and the technologies required to make the project. It serves as the foundation of the project going forward, and ensured that the project does no over or underdeliver in its objectives.
