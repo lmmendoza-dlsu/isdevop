@@ -12,5 +12,5 @@ Containerization tools, particularly Docker and Kubernetes, play a pivotal role 
 
 The image below illustrates the sequential stages of the DevOps workflow, emphasizing the collaborative and automated nature of the process.
 
-![ISDEVOP Question 1 Illustration](/The_eight_stages_of_a_successful_DevOps_workflow.png)
+![Image](/The_eight_stages_of_a_successful_DevOps_workflow.png)
 
