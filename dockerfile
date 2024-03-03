@@ -25,16 +25,25 @@ RUN rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
 # Install the MySQL server 
 RUN yum -y install mysql-server
 
-# Create the sa user for the MySQL database
-RUN useradd -r sa
 
-# Set the password for the sa user
-RUN echo 'sa:12345' | chpasswd
+ENV MYSQL_ROOT_PASSWORD=12345
 
-# Use the sa user to run the MySQL service
-USER sa
+
+#Create user 
+RUN useradd sa
+RUN echo "sa:12345" | chpasswd
+
+# Create the MySQL data directory
+RUN mkdir -p /var/lib/mysql
+
+# Change ownership of the MySQL data directory to the sa user
+RUN chown sa:sa /var/lib/mysql
+
 # Expose the default MySQL port
 EXPOSE 3306
 
-# Run the MySQL service when the container starts
-CMD ["service", "mysqld", "start"]
+
+
+# Start MySQL service when the container starts
+CMD ["mysqld", "--user=sa"]
+
