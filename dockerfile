@@ -25,19 +25,15 @@ RUN rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
 # Install the MySQL server 
 RUN yum -y install mysql-server
 
-
 ENV MYSQL_ROOT_PASSWORD=12345
-
 
 #Create user 
 RUN useradd sa
 RUN echo "sa:12345" | chpasswd
 
-# Create the MySQL data directory
-RUN mkdir -p /var/lib/mysql
-
 # Change ownership of the MySQL data directory to the sa user
-RUN chown sa:sa /var/lib/mysql
+RUN chown sa:sa /var/log/mysqld.log
+RUN chmod -R 777 /var/log/mysqld.log
 
 # Expose the default MySQL port
 EXPOSE 3306
