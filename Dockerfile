@@ -1,8 +1,18 @@
 # CentOS 7 Base Image
 FROM centos:7
 
+RUN yum install -y wget
+
+RUN wget https://repo.mysql.com/RPM-GPG-KEY-mysql && \
+    rpm --import RPM-GPG-KEY-mysql && \
+    rm RPM-GPG-KEY-mysql
+
+RUN yum clean all && yum makecache
+
 # Install MySQL
-RUN yum install -y mysql-server
+RUN yum -y update && \
+    yum -y install https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm && \
+    yum -y install mysql-community-server
 
 # Start MySQL
 RUN systemctl start mysqld
