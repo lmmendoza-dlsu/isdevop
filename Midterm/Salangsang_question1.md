@@ -30,4 +30,4 @@ Throughout the development cycle, automated monitoring gives ongoing feedback on
 ## This simplified approach prioritises collaboration, automation, and continuous feedback, allowing teams to develop high-quality software more effectively.
 
 
-![DevOpsWorkflow](/isdevop/Midterm/DevOpsWorkflow.png.png)
+![DevOpsWorkflow](/isdevop/Midterm/DevOpsWorkflow.png)
