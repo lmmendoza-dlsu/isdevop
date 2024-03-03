@@ -2,7 +2,7 @@
 FROM centos:7
 
 # Install MySQL
-RUN yun install -y mysql-server
+RUN yum install -y mysql-server
 
 # Start MySQL
 RUN systemctl start mysqld
