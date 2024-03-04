@@ -13,12 +13,12 @@ docker exec -it devOpsSql1 mysql -u sa -p12345
 Proof Working Completion:
 
 Build Container:
-![DockerBuild](/image/DockerBuild Finished.png) 
+![DockerBuild](/image/DockerBuildFinished.png) 
 
 Install, Run and Execute MySQL:
-![DockerBuild2](/image/DockerBuild Running and Logging.png) 
+![DockerBuild2](/image/DockerBuildRunLogSA.png) 
 
 
 Running Container:
-![DockerBuild3](/image/Docker Container Running.png) 
+![DockerBuild3](/image/DockerContainerRunning.png) 
 
