@@ -1,30 +1,33 @@
-# CentOS 7 Base Image
 FROM centos:7
 
 RUN yum install -y wget
 
-RUN wget https://repo.mysql.com/RPM-GPG-KEY-mysql && \
-    rpm --import RPM-GPG-KEY-mysql && \
-    rm RPM-GPG-KEY-mysql
+RUN yum clean all
 
-RUN yum clean all && yum makecache
+RUN yum -y update
 
-# Install MySQL
-RUN yum -y update && \
-    yum -y install https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm && \
-    yum -y install mysql-community-server
+RUN yum -y install epel-release
 
-# Start MySQL
-RUN systemctl start mysqld
+RUN wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
 
-# Set root password
-RUN mysql -e "UPDATE mysql.user SET Password=PASSWORD('password') WHERE User='root'; FLUSH PRIVILEGES;"
+RUN rpm -Uvh mysql80-community-release-el7-3.noarch.rpm
 
-# Create user *sa* with password *password*
-RUN mysql -e "CREATE USER 'sa'@'localhost' IDENTIFIED BY 'password'; GRANT ALL PRIVILEGES ON *.* TO 'sa'@'localhost' WITH GRANT OPTION; FLUSH PRIVILEGES;"
+RUN rpm --import https://www.centos.org/keys/RPM-GPG-KEY-CentOS-7
 
-# Expose port 3306
+RUN rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
+
+RUN yum -y install mysql-server
+
+ENV MYSQL_ROOT_PASSWORD=password
+
+RUN useradd sa
+
+RUN echo "sa:password" | chpasswd
+
+RUN chown sa:sa /var/log/mysqld.log
+
+RUN chmod -R 777 /var/log/mysqld.log
+
 EXPOSE 3306
 
-# Start MySQL on container start
-CMD ["mysqld_safe"]
+CMD ["mysqld", "--user=sa"]
