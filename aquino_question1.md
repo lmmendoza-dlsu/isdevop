@@ -2,4 +2,4 @@ In your own words, kindly illustrate an effective DevOps workflow and toolchain.
 
 
 
-![DevOpsWorkflow](/image/DevOpsWorkFlow.png) 
+![DevOpsWorkFlow](/image/DevOpsWorkFlow.png) 
