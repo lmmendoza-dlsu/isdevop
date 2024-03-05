@@ -1,0 +1,6 @@
+1. In your own words, do you think, we really need DevOps?
+  Yes, I think we need the DevOps framework because as incorporates faster delivery, high quality, and enhanced collaboration and communication to the project as compared to other frameworks.
+2. Kindly differentiate the three components of DevOps: CI, CD, and CD.
+  Continuous Integration automates merging code changes, building, and testing frequently, catching issues early in the development cycle. Continuous Delivery builds on the continouos integration, adding automated deployment to a staging environment, ensuring releases are always ready for production. Continuous Deployment takes continouos delivery a step further by automatically deploying approved changes to production, streamlining the release process entirely.
+3. In your own opinion, and based on your experience so far, what could be the most challenging part of observing the DevOps framework?
+  Not considered most but one of the challenging parts, is the transition from one framework to the other. For example, from shifting to Waterfall to DevOps. I think it will take some time to adapt as the Developer might have been used to a certain framework.
