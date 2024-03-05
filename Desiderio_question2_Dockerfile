@@ -1,0 +1,9 @@
+# Use the CentOS 7 base image
+FROM centos:7
+
+# Install MySQL Server
+RUN yum install -y mysql-server
+
+# Start MySQL service
+CMD ["mysqld"]
+
