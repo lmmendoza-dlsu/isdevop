@@ -1,6 +1,6 @@
 # Effective DevOps Workflow and Toolchain
 
-![Workflow](/question1_image.png)
+![Workflow](/question1_image.jpg)
 
 ## Plan
 - Define project goals, requirements, and tasks.
