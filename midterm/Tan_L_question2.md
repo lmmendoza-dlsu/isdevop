@@ -1,3 +1,4 @@
+```
 FROM centos:7
 
 RUN yum update -y
@@ -14,3 +15,4 @@ RUN mysqld
 CMD ["mysqld"]
 
 EXPOSE 3306
+```
