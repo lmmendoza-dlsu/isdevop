@@ -1,4 +1,4 @@
-
+#  In your own words, kindly illustrate an effective DevOps workflow and toolchain.
 <img width="799" alt="devops" src="https://github.com/lmmendoza-dlsu/isdevop/assets/124588051/a6d7421c-d35b-4dd1-b2e2-d722e8bdcbf2">
 
 This illustrates a DevOps workflow where both Software Development and IT Operations team work together in shortening the software development lifecycle through
