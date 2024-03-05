@@ -12,7 +12,7 @@ Docker advantages:
 3. Efficiency. The glaring difference between Docker (containerization) and virtual machines (virtualization) is that Docker's containerization allows different application to share OS Kernel and resources which greatly minimizes hardware resource allocation and distribution between main OS and virtualized OS.
 
 DevOps framework benefit:
-1. 
+1. Due to the nature of DevOps framework, developers, IT Operations, and stakeholders/clients are involved in the delivery process. This increases collaborative efforts between groups. As such, DevOps is perfect not only for software delivery but also team building.
 2. 
 3. 
 
