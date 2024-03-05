@@ -1,0 +1,21 @@
+**********************************************************************
+*
+For surname_question3.md:
+List 3 advantages of using Docker. 
+List 3 benefits of DevOps framework.
+*
+Lucena, Renz Erik R. S16
+**********************************************************************
+
+Docker advantages:
+1. One of Docker's primary essence is encapsulation. Everything an application needs to run is encapsulated, which ensures consistency across different environments. In other words, PORTABILITY is one of Docker's great advantages.
+2. Conflict prevention through isolation also serves as an advantage of using Docker. Docker's containers provides process isolation which means each processes has its own lifesystem and resources thus minimizing probabiltiy of conflict between applications.
+3. Efficiency. The glaring difference between Docker (containerization) and virtual machines (virtualization) is that Docker's containerization allows different application to share OS Kernel and resources which greatly minimizes hardware resource allocation and distribution between main OS and virtualized OS.
+
+DevOps framework benefit:
+1. Due to the nature of DevOps framework, developers, IT Operations, and stakeholders/clients are involved in the delivery process. This increases collaborative efforts between groups. As such, DevOps is perfect not only for software delivery but also team building.
+2. Due to practices such as Continous Integration, Deployment, and Delivery, projects are easier and faster tor reach the market. This results into increased competence, faster release cycles, and shorter development time.
+3. Since DevOps emphasized automation, code infrastructure, and continuous testing, erros and bugs are identified early on, thus improving quality and stability of code.
+
+
+
