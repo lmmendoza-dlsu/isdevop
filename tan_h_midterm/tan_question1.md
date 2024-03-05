@@ -1,0 +1,1 @@
+In your own words, kindly illustrate an effective DevOps workflow and toolchain. 

@@ -1,0 +1,1 @@
+Create a dockerfile that creates a CentOS 7 virtual machine and installs a BASIC MySQL database.
