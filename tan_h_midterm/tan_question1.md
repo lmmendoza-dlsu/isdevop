@@ -1,1 +1,11 @@
-In your own words, kindly illustrate an effective DevOps workflow and toolchain. 
+1. In your own words, kindly illustrate an effective DevOps workflow and toolchain. 
+    In order to create an effective DevOps workflow and toolchain, it should contain the following:
+        a. Planning and Collaboration
+            The planning and collaboration between team members are one of the most important things to create an effective DevOps environment. Team members would collaborate and brainstorm what are the plans in order to develop software. These include the features that are included in the application, the bugs or fixes that need to be fixed, and the different deployments of projects. Example tools that can be used in this phase would include Trello, Jira, and more.
+        b. Version Control Systems
+            Next would be having a version control system in order to manage all the code changes. Developers collaborate with each other and share the codes for different features and a version control system would ensure that these changes would be in a central repository. An example of a version control system would be Git.
+        c. Continuous Integration and Continuous Deployment
+            Next would be the creation of automated test cases. All changes in the code that would be pushed into a repository in a version control system would be checked by different tests. Tests would be automatically triggered to ensure that the changes in the code would not affect the existing functionalities of the software that is being developed. Continuous Deployment would then be triggered to automate the deployment process. An example tool that developers could use for continuous integration would be Jenkin while an example of a continuous deployment would be Docker.
+        d. Monitoring and Feedback
+            Lastly would be the monitoring and feedback that are gathered from the users. This would ensure that the program being developed is good. Monitoring is also done to ensure that all functionalities or features of the software are without bugs. Feedbacks are also gathered to ensure that users do not have an inconvenient experience while using the software. Monitoring and getting feedback could also help the developers have a fast detection of the problems encountered and a fast resolution of the issues.
+
