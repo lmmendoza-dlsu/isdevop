@@ -1,0 +1,33 @@
+# Use the official MySQL 8.0 image from Docker Hub
+FROM mysql:8.0
+
+# Environment variables for MySQL root password
+ENV MYSQL_ROOT_PASSWORD=rootpassword
+
+# Create and configure three instances with custom username/password
+RUN mkdir -p /var/lib/mysql1 && \
+    mkdir -p /var/lib/mysql2 && \
+    mkdir -p /var/lib/mysql3 && \
+    echo "[mysqld]\n\
+    datadir=/var/lib/mysql1\n\
+    user=mysql1\n\
+    password=password1" > /etc/mysql/mysql1.cnf && \
+    echo "[mysqld]\n\
+    datadir=/var/lib/mysql2\n\
+    user=mysql2\n\
+    password=password2" > /etc/mysql/mysql2.cnf && \
+    echo "[mysqld]\n\
+    datadir=/var/lib/mysql3\n\
+    user=mysql3\n\
+    password=password3" > /etc/mysql/mysql3.cnf
+
+# Create and configure two instances with default SA username/password
+RUN mkdir -p /var/lib/mysql4 && \
+    mkdir -p /var/lib/mysql5 && \
+    echo "[mysqld]\n\
+    datadir=/var/lib/mysql4" > /etc/mysql/mysql4.cnf && \
+    echo "[mysqld]\n\
+    datadir=/var/lib/mysql5" > /etc/mysql/mysql5.cnf
+
+# Expose MySQL ports
+EXPOSE 3306 3307 3308 3309 3310
