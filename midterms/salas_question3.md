@@ -3,6 +3,7 @@ Advantages of Using Docker:
 Portability:
 
 Docker enables applications and their dependencies to be packaged into containers, ensuring consistency across different environments. This portability simplifies deployment and allows developers to confidently run applications on various systems without worrying about differences in underlying infrastructure.
+
 Isolation and Security:
 
 Docker containers provide process isolation, isolating applications from the host system and other containers. This isolation enhances security by preventing potential conflicts between applications and limiting the impact of security vulnerabilities. Each container operates independently, enhancing overall system security.
