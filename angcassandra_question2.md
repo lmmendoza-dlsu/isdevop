@@ -32,7 +32,7 @@ CMD ["sh", "-c", "/usr/local/bin/mysql.sh" ,"/usr/sbin/mysqld --datadir=/var/lib
 EXPOSE 8080
 
 ---
-# MySQL startup script
+# MySQL startup script (filename: mysql.sh)
 #!/bin/bash
 
 mysqld --user=root --daemonize
