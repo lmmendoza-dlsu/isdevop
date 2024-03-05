@@ -1,33 +1,31 @@
 FROM centos:7
 
-RUN yum install -y wget
-
-RUN yum clean all
+RUN rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
 
 RUN yum -y update
 
-RUN yum -y install epel-release
-
-RUN wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
-
-RUN rpm -Uvh mysql80-community-release-el7-3.noarch.rpm
-
-RUN rpm --import https://www.centos.org/keys/RPM-GPG-KEY-CentOS-7
-
-RUN rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
+RUN yum -y install https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
 
 RUN yum -y install mysql-server
 
-ENV MYSQL_ROOT_PASSWORD=12345
+RUN echo '[mysqld]' > /etc/my.cnf
 
-RUN useradd sa
+RUN echo 'datadir = /var/lib/mysql' >> /etc/my.cnf
 
-RUN echo "sa:12345" | chpasswd
+ENV MYSQL_ROOT_PASSWORD=root
 
-RUN chown sa:sa /var/log/mysqld.log
+RUN mkdir -p /var/run/mysql
 
-RUN chmod -R 777 /var/log/mysqld.log
+RUN chown -R mysql:mysql /var/run/mysql
+
+RUN chown -R 750 /var/run/mysql
+
+COPY mysql_sa.sh /usr/local/bin/mysql_sa.sh
+
+RUN chmod +x /usr/local/bin/mysql_sa.sh
+
+RUN /usr/sbin/mysqld --initialize-insecure --user=mysql --basedir=/usr --datadir=/var/lib/mysql --lc-messages=en_US
+
+CMD ["sh", "-c", "/usr/local/bin/mysql_sa.sh" ,"/usr/sbin/mysqld --datadir=/var/lib/mysql --user=mysql --port=3306"]
 
 EXPOSE 3306
-
-CMD ["mysqld", "--user=sa"]
