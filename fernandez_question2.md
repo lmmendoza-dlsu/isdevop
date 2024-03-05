@@ -1,3 +1,4 @@
+# Question 02
 FROM centos:7
 
 RUN yum update && yum install -y mysql-server
