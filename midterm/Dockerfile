@@ -1,7 +1,6 @@
-# Start with the CentOS 7 base image
 FROM centos:7
 
-# Install wget and retrieve MySQL repository configuration
+
 RUN yum install -y wget && \
     wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm && \
     rpm -ivh mysql80-community-release-el7-3.noarch.rpm && \
@@ -9,11 +8,8 @@ RUN yum install -y wget && \
     yum install -y mysql-community-server && \
     yum clean all
 
-# Initialize MySQL server with default settings
 RUN /usr/sbin/mysqld --initialize-insecure --user=mysql --basedir=/usr --datadir=/var/lib/mysql --lc-messages=en_US
 
-# Set the default command to start MySQL server
 CMD ["/usr/sbin/mysqld", "--datadir=/var/lib/mysql", "--user=mysql", "--port=3306"]
 
-# Expose the MySQL port
 EXPOSE 3306
