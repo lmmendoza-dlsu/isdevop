@@ -15,5 +15,6 @@ RUN /usr/sbin/mysqld --initialize-insecure --user=mysql --basedir=/usr --datadir
 # Set the default command to start MySQL server
 CMD ["/usr/sbin/mysqld", "--datadir=/var/lib/mysql", "--user=mysql", "--port=3306"]
 
+
 # Expose the MySQL port
 EXPOSE 3306
