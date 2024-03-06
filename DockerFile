@@ -1,0 +1,36 @@
+FROM centos:7
+
+# Import the latest MySQL GPG key
+RUN rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
+
+# Install MySQL server
+RUN yum -y update && \
+    yum -y install https://dev.mysql.com/get/mysql80-community-release-el7-5.noarch.rpm && \
+    yum -y install mysql-server
+
+# Create custom my.cnf file
+RUN echo '[mysqld]' > /etc/my.cnf && \
+    echo 'datadir = /var/lib/mysql' >> /etc/my.cnf
+
+# Modify existing my.cnf file to allow connections from remote hosts
+RUN sed -i 's/^bind-address.*/bind-address = 0.0.0.0/' /etc/my.cnf
+
+# Init pass var 
+ENV MYSQL_ROOT_PASSWORD=root
+
+# Create /var/lib/mysql directory and set ownership and permissions
+RUN mkdir -p /var/lib/mysql && \
+    chown -R mysql:mysql /var/lib/mysql && \
+    chmod -R 750 /var/lib/mysql
+
+# Initialize MySQL data directory without setting root password
+RUN /usr/sbin/mysqld --initialize-insecure --user=mysql --basedir=/usr --datadir=/var/lib/mysql --lc-messages=en_US
+
+# Start MySQL server and wait until it's ready
+CMD ["sh", "-c", "/usr/sbin/mysqld --user=mysql --daemonize && \
+                   until mysqladmin ping &>/dev/null; do echo 'Waiting for MySQL to start...'; sleep 1; done && \
+                   mysql -u root -e \"ALTER USER 'root'@'localhost' IDENTIFIED BY '$MYSQL_ROOT_PASSWORD';\" && \
+                   tail -f /dev/null"]
+
+# Expose MySQL port
+EXPOSE 3306
