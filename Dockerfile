@@ -1,17 +1,3 @@
-
-**********************************************************************
-*
-*     ISDEVOP
-*     ISDEVOP Midterms Question 2
-*     Objective: Branches and Folders
-*     
-*     Author: John Derick M. Endozo
-*     Date: March 6, 2024
-*     
-**********************************************************************
-
-
-
 FROM centos:7
 
 RUN yum install -y wget && \
