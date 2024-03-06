@@ -1,0 +1,16 @@
+Question 3:
+- List 3 advantages of using Docker. 
+- List 3 benefits of DevOps framework.
+
+
+Advantages of Using Docker:
+1. Docker containers can be started within seconds because they are lightweight and share the host OS kernel. Faster deployment means quicker time-to-market for software updates and features.
+2. Docker optimizes resource utilization by sharing the host OS kernel. Containers consume fewer resources compared to virtual machines.
+3. Containers provide isolation, allowing applications to run independently without interfering with each other.
+Docker images encapsulate everything an application needs making them highly portable.
+
+
+Benefits of the DevOps Framework:
+1. DevOps practices streamline the development and deployment process. Teams can deliver new features and updates to users more rapidly, enhancing customer satisfaction.
+2. Cross-functional teams work together seamlessly, reducing bottlenecks and delays.
+3. DevOps emphasizes automated testing, code reviews, and quality assurance.
