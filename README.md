@@ -1,10 +1,10 @@
 **********************************************************************
 *
 *     ISDEVOP README.md
-*     ISDEVOP S16/S17
+*     ISDEVOP S16
 *     
-*     Author: Lourdes Mendoza
-*     Date: February 12, 2024s
+*     Author: Christian James C. Pascasio
+*     Date: March 6, 2024
 *     Purpose: This is a welcome note to the new ISDEVOP Repository
 *
 **********************************************************************
