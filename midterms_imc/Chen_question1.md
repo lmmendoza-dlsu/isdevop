@@ -1,4 +1,5 @@
 # Effective DevOps Workflow and Toolchain
+![DEVOP](https://github.com/lmmendoza-dlsu/isdevop/assets/141116081/cf0e190c-7c85-4380-9840-92c41c6b8ef8)
 
 DevOps is a methodology that aims to bridge the gap between software development (Dev) and IT operations (Ops), promoting collaboration, automation, and continuous integration and delivery. An effective DevOps workflow typically involves several stages, each supported by a toolchain to streamline processes and enhance productivity.
 
