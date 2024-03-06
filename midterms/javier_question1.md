@@ -1,6 +1,6 @@
 # Effective DevOps Workflow and Toolchain
 
-## DevOps Workflow
+## DevOps Workfloww
 
 1. **Planning:** There must be a clear and cohesive plan and implementation of phases and requirements in order for teams to strive for and for DevOps to be done properly.
 
