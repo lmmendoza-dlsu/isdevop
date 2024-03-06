@@ -1,0 +1,24 @@
+
+FROM centos:7
+
+
+RUN yum -y update; yum clean all
+RUN yum -y install https://dev.mysql.com/get/mysql80-community-release-el7-11.noarch.rpm
+RUN yum -y install mysql-server
+
+
+# Start the MySQL service
+RUN mysqld  --initialize-insecure
+
+# Set the root password for MySQL (you will be prompted to set it during the build)
+RUN mysqladmin -u root password 'your_root_password'
+
+# Create a basic MySQL database and user (sa user)
+RUN mysql -u root -p'your_root_password' -e 'CREATE DATABASE basic_db;'
+RUN mysql -u root -p'your_root_password' -e "GRANT ALL PRIVILEGES ON basic_db.* TO 'sa'@'%' IDENTIFIED BY 'your_sa_password';"
+RUN mysql -u root -p'your_root_password' -e 'FLUSH PRIVILEGES;'
+
+# Expose MySQL default port
+EXPOSE 3306
+
+# Note: Replace 'your_root_password' and 'your_sa_password' with your desired passwords.
