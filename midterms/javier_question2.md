@@ -2,7 +2,7 @@ FROM centos:7
 
 RUN yum install -y mysql-server
 
-RUN service mysqld start
+RUN service mysqld start  
 
 RUN mysqladmin -u root password 'your_root_password'
 
