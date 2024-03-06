@@ -1,5 +1,7 @@
 FROM centos:7
 
+ENV MYSQL_ROOT_PASSWORD=root12345
+
 RUN yum update -y
 
 RUN yum install -y wget && \

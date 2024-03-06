@@ -10,7 +10,7 @@
 
 ## Create a dockerfile that creates a CentOS 7 virtual machine and installs a BASIC MySQL database. Basic means no additional configuration file, and I will only be needing the sa user.
 
-- The dockerfile contents are listed below:
+- The dockerfile contents are listed below and are in a separate file called `Dockerfile`:
 
 ```
 FROM centos:7
