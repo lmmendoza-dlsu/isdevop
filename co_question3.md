@@ -1,0 +1,9 @@
+1. Advantages of Docker
+    1. Efficient resource usage - since Docker utilizes containerization, it shares the host's OS kernel which inherently is less resource dependent, meaning it can be beneficial especially for users who do not have the privilege to invest in high end hardware devices that have a lot of space.
+    2. Scalability - with the function to replicate containers, users can easily deploy additional instances of the application in said containers which can be beneficial especially for large scale companies who work with multiple users at the same time.
+    3. Security - one notable aspect of Docker is how containers are run separately or are isolated from each other which means interference due to conflicts and potential security risks are minimized.
+
+2. Benefits of DevOps Framework
+    1. Increased efficiency - by using automation, there is more time for the developers to focus on more urgent tasks instead of doing repetitive tasks like deploying each change manually, or doing the testing. This means the developers can also have more time instead for collaboration or innovation in product testing/developing. 
+    2. Consistency - by utilizing automation, there is less risk for human error which is common in software development and deployment. This also means that bugs or defects in the software will be able to be detected early in the development process instead of only discovering it when it is time for deployment. 
+    3. Culture of collaboration - by breaking down traditional silos (essentially splitting the development and operations and quality assurance from each other), it fosters communication and transparency between teams which can lead to better teamwork and a more organized and determined workflow. 
